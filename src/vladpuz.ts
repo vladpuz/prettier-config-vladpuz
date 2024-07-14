@@ -2,20 +2,18 @@ import { type Config } from 'prettier'
 
 /* eslint perfectionist/sort-objects: "error" */
 
-function vladpuz(): Config {
+export function vladpuz(): Config {
   const options: Config = {
     arrowParens: 'always',
     bracketSameLine: false,
     bracketSpacing: true,
     embeddedLanguageFormatting: 'auto',
     endOfLine: 'lf',
-    htmlWhitespaceSensitivity: 'ignore',
-    insertPragma: false,
+    htmlWhitespaceSensitivity: 'css',
     jsxSingleQuote: false,
-    printWidth: 120,
+    printWidth: 80,
     proseWrap: 'always',
     quoteProps: 'consistent',
-    requirePragma: false,
     semi: false,
     singleAttributePerLine: false,
     singleQuote: true,
@@ -30,5 +28,3 @@ function vladpuz(): Config {
     ...options,
   }
 }
-
-export default vladpuz

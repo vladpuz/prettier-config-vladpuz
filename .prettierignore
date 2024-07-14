@@ -9,3 +9,6 @@
 *.tsx
 *.mts
 *.cts
+
+# playground
+!playground/**/*
