@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Prettier config with clean and consistent style",
   "keywords": [
     "vladpuz",
@@ -30,13 +30,13 @@
     "update-minor": "npm-check-updates --peer --upgrade --target minor"
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^2.5.0"
+    "prettier-plugin-packagejson": "^2.5.1"
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
     "@types/react": "^18.3.3",
     "eslint": "^8.57.0",
-    "eslint-config-vladpuz": "^0.6.0",
+    "eslint-config-vladpuz": "^0.7.0",
     "husky": "^9.0.11",
     "npm-check-updates": "^16.14.20",
     "rimraf": "^6.0.1",
