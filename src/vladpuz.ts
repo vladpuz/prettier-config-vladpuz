@@ -1,4 +1,4 @@
-import { type Config } from 'prettier'
+import type { Config } from 'prettier'
 
 /* eslint perfectionist/sort-objects: "error" */
 
@@ -24,7 +24,7 @@ export function vladpuz(): Config {
   }
 
   return {
-    plugins: ['prettier-plugin-packagejson'],
+    plugins: ['prettier-plugin-packagejson', 'prettier-plugin-sh'],
     ...options,
   }
 }
