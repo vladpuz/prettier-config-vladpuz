@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Prettier config with clean and consistent style",
   "keywords": [
     "vladpuz",
@@ -25,9 +25,7 @@
     "prepack": "npm run clean && npm run build && npm run check",
     "prepare": "husky",
     "typecheck": "tsc --noEmit",
-    "update-check": "npm-check-updates --peer",
-    "update-latest": "npm-check-updates --peer --upgrade --target latest",
-    "update-minor": "npm-check-updates --peer --upgrade --target minor"
+    "update-latest": "rimraf package-lock.json && npm-check-updates --peer --upgrade && npm install"
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.1"
@@ -37,10 +35,10 @@
     "@types/react": "^18.3.3",
     "eslint": "^8.57.0",
     "eslint-config-vladpuz": "^0.7.0",
-    "husky": "^9.0.11",
+    "husky": "^9.1.1",
     "npm-check-updates": "^16.14.20",
     "rimraf": "^6.0.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
