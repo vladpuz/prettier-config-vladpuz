@@ -10,8 +10,5 @@
 *.mts
 *.cts
 
-# husky
-.husky
-
 # playground
 !playground/**/*

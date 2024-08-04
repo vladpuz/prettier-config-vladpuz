@@ -24,7 +24,7 @@ export function vladpuz(): Config {
   }
 
   return {
-    plugins: ['prettier-plugin-packagejson', 'prettier-plugin-sh'],
+    plugins: ['prettier-plugin-pkg', 'prettier-plugin-sh'],
     ...options,
   }
 }
