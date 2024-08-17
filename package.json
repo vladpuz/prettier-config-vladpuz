@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "type": "module",
   "description": "Prettier config with clean and consistent style",
   "repository": {
@@ -38,9 +38,9 @@
     "@tsconfig/strictest": "^2.0.5",
     "@types/react": "^18.3.3",
     "eslint": "^8.57.0",
-    "eslint-config-vladpuz": "^0.8.0",
+    "eslint-config-vladpuz": "^0.9.0",
     "husky": "^9.1.4",
-    "npm-check-updates": "^17.0.2",
+    "npm-check-updates": "^17.0.6",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"
   }

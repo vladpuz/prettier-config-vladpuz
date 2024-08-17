@@ -3,7 +3,7 @@ import type { Config } from 'prettier'
 /* eslint perfectionist/sort-objects: "error" */
 
 export function vladpuz(): Config {
-  const options: Config = {
+  const config: Config = {
     arrowParens: 'always',
     bracketSameLine: false,
     bracketSpacing: true,
@@ -25,6 +25,6 @@ export function vladpuz(): Config {
 
   return {
     plugins: ['prettier-plugin-pkg', 'prettier-plugin-sh'],
-    ...options,
+    ...config,
   }
 }
