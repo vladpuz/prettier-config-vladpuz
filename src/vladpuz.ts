@@ -1,8 +1,8 @@
 import type { Config } from 'prettier'
 
-/* eslint perfectionist/sort-objects: "error" */
+/* eslint perfectionist/sort-objects: error */
 
-export function vladpuz(): Config {
+function vladpuz(): Config {
   const config: Config = {
     arrowParens: 'always',
     bracketSameLine: false,
@@ -28,3 +28,5 @@ export function vladpuz(): Config {
     ...config,
   }
 }
+
+export default vladpuz
