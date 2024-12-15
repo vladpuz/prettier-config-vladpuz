@@ -1,6 +1,6 @@
 import type { Config } from 'prettier'
 
-/* eslint perfectionist/sort-objects: error */
+/* eslint perfectionist/sort-objects: error -- Sort objects */
 
 function vladpuz(): Config {
   const config: Config = {
