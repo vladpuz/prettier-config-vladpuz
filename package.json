@@ -1,8 +1,8 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "type": "module",
-  "description": "Prettier config with clean and consistent style",
+  "description": "My prettier config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladpuz/prettier-config-vladpuz.git"
@@ -24,24 +24,23 @@
     "lint": "eslint .",
     "prepack": "npm run clean && npm run build && npm run check",
     "prepare": "husky",
-    "typecheck": "tsc --noEmit",
-    "upgrade": "npm-check-updates --peer --upgrade && npm update"
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
   "dependencies": {
     "prettier-plugin-pkg": "^0.18.1",
-    "prettier-plugin-sh": "^0.14.0"
+    "prettier-plugin-sh": "^0.15.0"
   },
   "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
     "@tsconfig/strictest": "^2.0.5",
-    "@types/react": "^19.0.1",
-    "eslint": "^9.17.0",
-    "eslint-config-vladpuz": "^0.19.0",
+    "@types/node": "^22.13.13",
+    "eslint": "^9.23.0",
+    "eslint-config-vladpuz": "^0.24.0",
     "husky": "^9.1.7",
-    "npm-check-updates": "^17.1.11",
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.2"
   }
 }
