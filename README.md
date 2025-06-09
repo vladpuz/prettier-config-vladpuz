@@ -56,10 +56,6 @@ prettier --check .
 prettier --write .
 ```
 
-## API
-
-Документация TypeDoc: [docs/API.md](docs/API.md)
-
 ## Смотрите так же
 
 - [eslint-config-vladpuz](https://github.com/vladpuz/eslint-config-vladpuz)
