@@ -1,9 +1,11 @@
 import type { Config } from 'prettier'
 
-/* eslint perfectionist/sort-objects: error */
-
 function vladpuz(): Config {
-  const config: Config = {
+  return {
+    plugins: [
+      'prettier-plugin-pkg',
+      'prettier-plugin-sh',
+    ],
     arrowParens: 'always',
     bracketSameLine: false,
     bracketSpacing: true,
@@ -22,11 +24,6 @@ function vladpuz(): Config {
     trailingComma: 'all',
     useTabs: false,
     vueIndentScriptAndStyle: false,
-  }
-
-  return {
-    plugins: ['prettier-plugin-pkg', 'prettier-plugin-sh'],
-    ...config,
   }
 }
 

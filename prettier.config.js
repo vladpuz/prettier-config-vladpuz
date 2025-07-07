@@ -1,5 +1,5 @@
 import vladpuz from './build/index.js'
 
-export default {
-  ...vladpuz(),
-}
+const config = vladpuz()
+
+export default config

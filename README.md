@@ -1,34 +1,32 @@
 # prettier-config-vladpuz
 
-> Моя конфигурация prettier
+> My Prettier config
 
-Особенности:
+Features:
 
-- Сортировка package.json
+- Sort package.json
   ([prettier-plugin-pkg](https://www.npmjs.com/package/prettier-plugin-pkg))
-- Форматирование shell
+- Format shell
   ([prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh))
 
-## Установка
+## Installation
 
 ```shell
 npm install --save-dev prettier prettier-config-vladpuz
 ```
 
-## Использование
+## Usage
 
-Создайте файл `prettier.config.js`:
+Create a file `prettier.config.js`:
 
 ```javascript
 import vladpuz from 'prettier-config-vladpuz'
 
-export default {
-  ...vladpuz(),
-}
+export default vladpuz()
 ```
 
-Если вы используете eslint со стилистическими правилами, отключите prettier для
-файлов javascript и typescript. Для этого создайте файл `.prettierignore`:
+If you use ESLint with stylistic rules, disable Prettier for JavaScript and
+TypeScript files. For this, create a file `.prettierignore`:
 
 ```ignore
 # javascript
@@ -44,18 +42,18 @@ export default {
 *.cts
 ```
 
-Запуск prettier в режиме проверки:
+Run Prettier in check mode:
 
 ```shell
 prettier --check .
 ```
 
-Запуск prettier в режиме записи:
+Run Prettier in write mode:
 
 ```shell
 prettier --write .
 ```
 
-## Смотрите так же
+## See also
 
 - [eslint-config-vladpuz](https://github.com/vladpuz/eslint-config-vladpuz)
