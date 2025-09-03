@@ -4,8 +4,7 @@
 
 Особенности:
 
-- Сортировка package.json
-  ([prettier-plugin-pkg](https://www.npmjs.com/package/prettier-plugin-pkg))
+- Консистентный, минималистичный для чтения и стабильный для diff стиль
 - Форматирование shell
   ([prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh))
 

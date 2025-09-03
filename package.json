@@ -1,21 +1,21 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "1.0.2",
-  "type": "module",
+  "version": "2.0.0",
   "description": "My Prettier config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vladpuz/prettier-config-vladpuz.git"
-  },
-  "author": "Vladislav Puzyrev",
-  "license": "MIT",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
   "keywords": [
     "vladpuz",
     "prettier",
     "prettierconfig"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladpuz/prettier-config-vladpuz.git"
+  },
+  "license": "MIT",
+  "author": "Vladislav Puzyrev",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "check": "npm run typecheck && npm run lint && npm run format",
@@ -26,21 +26,20 @@
     "prepare": "husky",
     "typecheck": "tsc --noEmit"
   },
-  "peerDependencies": {
-    "prettier": "^3.0.0"
-  },
   "dependencies": {
-    "prettier-plugin-pkg": "^0.21.1",
     "prettier-plugin-sh": "^0.18.0"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "^22.0.2",
     "@tsconfig/strictest": "^2.0.5",
-    "@types/node": "^24.0.10",
-    "eslint": "^9.30.1",
-    "eslint-config-vladpuz": "^1.3.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "eslint-config-vladpuz": "^2.1.0",
     "husky": "^9.1.7",
     "rimraf": "^6.0.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
   }
 }

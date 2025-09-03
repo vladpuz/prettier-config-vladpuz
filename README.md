@@ -4,9 +4,8 @@
 
 Features:
 
-- Sort package.json
-  ([prettier-plugin-pkg](https://www.npmjs.com/package/prettier-plugin-pkg))
-- Format shell
+- Consistent, minimalistic for readability and stable for diff style
+- Shell formatting
   ([prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh))
 
 ## Installation
