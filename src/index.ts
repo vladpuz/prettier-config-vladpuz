@@ -1,3 +1,3 @@
-import vladpuz from './vladpuz.js'
+import vladpuz from './vladpuz.ts'
 
 export default vladpuz

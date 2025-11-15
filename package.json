@@ -30,13 +30,14 @@
     "prettier-plugin-sh": "^0.18.0"
   },
   "devDependencies": {
-    "@tsconfig/node-lts": "^22.0.2",
-    "@tsconfig/strictest": "^2.0.6",
-    "@types/node": "^24.6.2",
-    "eslint": "^9.37.0",
-    "eslint-config-vladpuz": "^2.5.0",
+    "@tsconfig/node-lts": "^22.0.3",
+    "@tsconfig/node-ts": "^23.6.2",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "eslint-config-vladpuz": "^2.5.1",
     "husky": "^9.1.7",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.0",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

@@ -11,4 +11,13 @@ export default [
       }],
     },
   },
+  {
+    name: 'extensions',
+    ignores: ['prettier.config.js'],
+    rules: {
+      'no-restricted-imports': ['error', {
+        patterns: ['**/*.js'],
+      }],
+    },
+  },
 ]
