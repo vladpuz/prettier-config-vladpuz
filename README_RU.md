@@ -1,10 +1,12 @@
 # prettier-config-vladpuz
 
-> Мой Prettier конфиг
+> My Prettier config
 
 Особенности:
 
-- Консистентный, минималистичный для чтения и стабильный для diff стиль
+- Минималистичный для чтения, стабильный для diff и консистентный стиль
+- Сортировка package.json
+  ([prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson))
 - Форматирование shell
   ([prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh))
 
@@ -56,3 +58,4 @@ prettier --write .
 ## Смотрите так же
 
 - [eslint-config-vladpuz](https://github.com/vladpuz/eslint-config-vladpuz)
+- [eslint-config-vladpuz-react](https://github.com/vladpuz/eslint-config-vladpuz-react)

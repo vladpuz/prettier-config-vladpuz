@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-vladpuz",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "My Prettier config",
   "keywords": [
     "vladpuz",
@@ -27,17 +27,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "prettier-plugin-packagejson": "^3.0.0",
     "prettier-plugin-sh": "^0.18.0"
   },
   "devDependencies": {
-    "@tsconfig/node-lts": "^22.0.3",
-    "@tsconfig/node-ts": "^23.6.2",
+    "@tsconfig/node-lts": "^24.0.0",
+    "@tsconfig/node-ts": "^23.6.4",
     "@tsconfig/strictest": "^2.0.8",
-    "@types/node": "^24.10.1",
-    "eslint": "^9.39.1",
+    "@types/node": "^25.3.2",
+    "eslint": "^9.39.3",
     "eslint-config-vladpuz": "^2.5.1",
     "husky": "^9.1.7",
-    "rimraf": "^6.1.0",
+    "rimraf": "^6.1.3",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

@@ -3,6 +3,7 @@ import type { Config } from 'prettier'
 function vladpuz(): Config {
   return {
     plugins: [
+      'prettier-plugin-packagejson',
       'prettier-plugin-sh',
     ],
     arrowParens: 'always',

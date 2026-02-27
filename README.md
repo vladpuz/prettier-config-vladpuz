@@ -4,8 +4,10 @@
 
 Features:
 
-- Consistent, minimalistic for readability and stable for diff style
-- Shell formatting
+- Minimalist for readability, stable for diff and consistent style
+- Sort package.json
+  ([prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson))
+- Format shell
   ([prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh))
 
 ## Installation
@@ -56,3 +58,4 @@ prettier --write .
 ## See also
 
 - [eslint-config-vladpuz](https://github.com/vladpuz/eslint-config-vladpuz)
+- [eslint-config-vladpuz-react](https://github.com/vladpuz/eslint-config-vladpuz-react)
