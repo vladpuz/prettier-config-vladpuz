@@ -14,32 +14,31 @@
   "license": "MIT",
   "author": "Vladislav Puzyrev",
   "type": "module",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
     "check": "npm run typecheck && npm run lint && npm run format",
-    "clean": "rimraf build",
     "format": "prettier --check .",
     "lint": "eslint .",
-    "prepack": "npm run clean && npm run build && npm run check",
+    "prepack": "npm run build && npm run check",
     "prepare": "husky",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^3.0.0",
-    "prettier-plugin-sh": "^0.18.0"
+    "prettier-plugin-packagejson": "^3.0.2",
+    "prettier-plugin-sh": "^0.18.1"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "^24.0.0",
     "@tsconfig/node-ts": "^23.6.4",
     "@tsconfig/strictest": "^2.0.8",
-    "@types/node": "^25.3.2",
-    "eslint": "^9.39.3",
-    "eslint-config-vladpuz": "^2.5.1",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.0",
+    "eslint-config-vladpuz": "^4.0.0",
     "husky": "^9.1.7",
     "rimraf": "^6.1.3",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"

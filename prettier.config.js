@@ -1,3 +1,3 @@
-import vladpuz from './build/index.js'
+import vladpuz from './dist/index.js'
 
 export default vladpuz()
