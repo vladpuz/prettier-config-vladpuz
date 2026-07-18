@@ -1,3 +1,7 @@
+## 3.0.1
+
+- Updated prettier-plugin-sh from 0.18 to 0.19.
+
 ## 3.0.0
 
 - Added plugin
